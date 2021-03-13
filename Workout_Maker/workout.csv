@@ -1,1 +1,5 @@
-Body part,Exercise,Sets,Reps
+Chest,"['Fly', 'Bench', 'Incline bench']"
+Shoulders,"['Overhead press', 'Machine press', 'Shrugs']"
+Back,"['Pulldowns', 'Machine row', 'Cable row']"
+Biceps,"['EZ curl', 'Waiter curl', 'Inner curl']"
+Triceps,"['Triceps ext', 'Dips', 'DB ext']"
