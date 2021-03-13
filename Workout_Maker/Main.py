@@ -41,8 +41,12 @@ if(random.choice(body_parts) == 'Lower'):
 
 
 else:
-    exercises_upper=['Bench', 'Incline bench','Decline bench','Fly','Lat Pulldown','Pullups','BB row','Machine row','Biceps curl','Inner curl','Standing curl',
-                     'Triceps dips']
+    
+    exercises_dict={'Chest':['Bench','Incline bench','Decline bench','Fly'],
+                    'Shoulders':['Overhead press','Lat raise','Shrugs','Fly','Machine press'],
+                    'Back':['Pullups','Pulldowns','Bar pulldowns','BB Row','Machine row','Cable row'],
+                    'Biceps':['EZ curl','DB curl','Inner curl','Standing curl','Waiter curl'],
+                    'Triceps':['Dips','Triceps ext','DB ext','Machine pulldown']}
 
     #fix list of items for upper body exercises
 
