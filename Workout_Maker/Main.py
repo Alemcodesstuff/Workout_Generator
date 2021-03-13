@@ -30,7 +30,7 @@ if(random.choice(body_parts) == 'Lower'):
         ex = random.choice(exercises_legs)
         exercises_for_output.append(ex)
         exercises_legs.remove(ex)
-        pomocna+=1
+        temp+=1
 
     csv_writer.writerow(exercises_for_output)
 
